@@ -56,6 +56,13 @@ const Navbar = () => {
                   style={{
                     width: "100%",
                   }}
+                  transition={{
+                    type: "spring",
+                    bounce: 0.25,
+                    stiffness: 130,
+                    damping: 9,
+                    duration: 0.3,
+                  }}
                 />
               )}
             </Link>
